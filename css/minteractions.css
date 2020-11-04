@@ -1,3 +1,10 @@
 /* Imports */
-.red {
-  color: red; }
+.mint-btn {
+  padding: 10px 15px;
+  border: 0; }
+  .mint-btn.solid {
+    border: 2px solid black; }
+  .mint-btn.dotted {
+    border: 2px dotted black; }
+  .mint-btn.dashed {
+    border: 2px dashed black; }

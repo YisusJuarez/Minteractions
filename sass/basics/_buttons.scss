@@ -1,5 +1,19 @@
-$min-color-default: red;
+//Mixins
+@mixin borderButton($size, $type, $color) {
+    border: $size $type $color;
+}
 
-.red{
-    color: $min-color-default;
+//Buttons
+.mint-btn {
+    padding: 10px 15px;
+    border: 0;
+    &.solid {
+        @include borderButton(2px, solid, black);
+    }
+    &.dotted {
+        @include borderButton(2px, dotted, black);
+    }
+    &.dashed {
+        @include borderButton(2px, dashed, black);
+    }
 }
