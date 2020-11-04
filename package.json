@@ -1,0 +1,21 @@
+{
+  "name": "minteractions",
+  "version": "1.0.0",
+  "description": "CSS Framework for microinteractions",
+  "main": "minteractions.sass",
+  "scripts": {
+    "build": "node-sass minteractions.sass css/minteractions.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "ui",
+    "microinteractions"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
