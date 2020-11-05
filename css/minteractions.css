@@ -1,9 +1,9 @@
 .mint-btn {
   padding: 10px 15px;
   border: 0;
-  border: 5px;
   color: white;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 .bgc-default {
   background-color: #b9b9b9; }

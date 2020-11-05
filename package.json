@@ -4,10 +4,18 @@
   "description": "CSS Framework for microinteractions",
   "main": "minteractions.sass",
   "scripts": {
-    "build": "node-sass minteractions.sass css/minteractions.css",
+    "build": "node-sass minteractions.sass css/minteractions.css && node-sass minteractions.sass docs/css/minteractions.css",
     "server": "live-server"
   },
-  "author": "",
+  "author": {
+    "name": "YisusJuarez",
+    "email": "wecodeservices@gmail.com",
+    "url": "https://www.wecode.team"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YisusJuarez/Minteractions"
+  },
   "license": "MIT",
   "keywords": [
     "css",
@@ -19,5 +27,10 @@
   "devDependencies": {
     "node-sass": "^4.14.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "css",
+    "sass",
+    "minteractions.sass"
+  ]
 }
