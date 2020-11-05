@@ -1,0 +1,14 @@
+//Colors
+$c-primary: #07a0c3;
+$c-success: #06d6a0;
+$c-danger: #dd1c1a;
+$c-default: gray;
+$c-alert: #f0c808;
+
+$colors-list: (
+    "default":$c-default,
+    "primary": $c-primary,
+    "success": $c-success,
+    "danger":$c-danger,
+    "alert":$c-alert
+);

@@ -4,7 +4,8 @@
   "description": "CSS Framework for microinteractions",
   "main": "minteractions.sass",
   "scripts": {
-    "build": "node-sass minteractions.sass css/minteractions.css"
+    "build": "node-sass minteractions.sass css/minteractions.css",
+    "server": "live-server"
   },
   "author": "",
   "license": "MIT",

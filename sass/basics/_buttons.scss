@@ -1,19 +1,30 @@
-//Mixins
-@mixin borderButton($size, $type, $color) {
-    border: $size $type $color;
-}
+//Vars & imports
+@import "./colors";
+$border-types:(dashed, dotted, solid);
 
 //Buttons
 .mint-btn {
     padding: 10px 15px;
     border: 0;
-    &.solid {
-        @include borderButton(2px, solid, black);
-    }
-    &.dotted {
-        @include borderButton(2px, dotted, black);
-    }
-    &.dashed {
-        @include borderButton(2px, dashed, black);
+    border: 5x ;
+}
+
+// Each de color-list en _colors
+// Generacion de bgc-color
+@each $name, $color in $colors-list {
+    .bgc-#{$name} {
+        background-color: $color;
+        &:hover{
+            opacity: .8;
+        }
     }
 }
+
+// Each de border-types en _buttons
+// Generación de bt-border
+@each $type in $border-types{
+    .bt-#{$type}{
+        border: 2px #{$type};
+    }
+}
+
