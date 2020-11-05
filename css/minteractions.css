@@ -1,38 +1,40 @@
 .mint-btn {
   padding: 10px 15px;
   border: 0;
-  border: 5x; }
+  border: 5px;
+  color: white;
+  font-weight: bold; }
 
 .bgc-default {
-  background-color: gray; }
+  background-color: #b9b9b9; }
   .bgc-default:hover {
-    opacity: .8; }
+    opacity: 0.8; }
 
 .bgc-primary {
   background-color: #07a0c3; }
   .bgc-primary:hover {
-    opacity: .8; }
+    opacity: 0.8; }
 
 .bgc-success {
   background-color: #06d6a0; }
   .bgc-success:hover {
-    opacity: .8; }
+    opacity: 0.8; }
 
 .bgc-danger {
   background-color: #dd1c1a; }
   .bgc-danger:hover {
-    opacity: .8; }
+    opacity: 0.8; }
 
 .bgc-alert {
   background-color: #f0c808; }
   .bgc-alert:hover {
-    opacity: .8; }
+    opacity: 0.8; }
 
-.bt-dashed {
-  border: 2px dashed; }
+.br-normal {
+  border-radius: 0px; }
 
-.bt-dotted {
-  border: 2px dotted; }
+.br-round {
+  border-radius: 3px; }
 
-.bt-solid {
-  border: 2px solid; }
+.br-rounded {
+  border-radius: 14px; }

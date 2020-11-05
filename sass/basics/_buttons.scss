@@ -1,12 +1,18 @@
 //Vars & imports
 @import "./colors";
-$border-types:(dashed, dotted, solid);
+$border-types: (
+    "normal": 0px,
+    "round": 3px,
+    "rounded": 14px,
+);
 
 //Buttons
 .mint-btn {
     padding: 10px 15px;
     border: 0;
-    border: 5x ;
+    border: 5px;
+    color: white;
+    font-weight: bold;
 }
 
 // Each de color-list en _colors
@@ -14,17 +20,16 @@ $border-types:(dashed, dotted, solid);
 @each $name, $color in $colors-list {
     .bgc-#{$name} {
         background-color: $color;
-        &:hover{
-            opacity: .8;
+        &:hover {
+            opacity: 0.8;
         }
     }
 }
 
 // Each de border-types en _buttons
 // Generación de bt-border
-@each $type in $border-types{
-    .bt-#{$type}{
-        border: 2px #{$type};
+@each $type, $border in $border-types {
+    .br-#{$type} {
+        border-radius: $border;
     }
 }
-
