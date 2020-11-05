@@ -6,9 +6,10 @@ Minteractions is a **CSS Library** where you can find professional designed comp
 ### CSS only
 You can download the compiled CSS [Minteracions.css](https://github.com/YisusJuarez/Minteractions/blob/master/css/minteractions.css). 
 
-You can either use that file, "out of the box", or download the Sass source files to customize the [variables](https://github.com/YisusJuarez/Minteractions/blob/master/sass/basics/_vars.scss).
+You can either use that file or download the Sass source files to customize the [variables](https://github.com/YisusJuarez/Minteractions/blob/master/sass/basics/_vars.scss).
 
-There is **no** JavaScript included so you are free to develop the functions by yourself.
+There is **no JavaScript included** so you are free to develop the functions by yourself.
 
-## Copyright and license 
-![Github](https://img.shields.io/github/license/YisusJuarez/Minteractions?logo=Github)
+## Copyright and License ![Github](https://img.shields.io/github/license/YisusJuarez/Minteractions?logo=Github)
+
+Code Copyright 2020 YisusJuarez. Code released under [License](https://github.com/YisusJuarez/Minteractions/blob/master/LICENSE.md)
