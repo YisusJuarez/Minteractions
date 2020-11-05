@@ -1,7 +1,7 @@
 {
   "name": "minteractions",
   "version": "1.0.0",
-  "description": "CSS Framework for microinteractions",
+  "description": "CSS Library for microinteractions",
   "main": "minteractions.sass",
   "scripts": {
     "build": "node-sass minteractions.sass css/minteractions.css && node-sass minteractions.sass docs/css/minteractions.css",
