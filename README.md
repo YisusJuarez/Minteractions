@@ -2,6 +2,8 @@
 Minteractions is a **CSS Library** where you can find professional designed components.
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/YisusJuarez/Minteractions)
+### Docs (**temporarily**)
+Follow the [docs](https://yisusjuarez.github.io/Minteractions/) to build your own button minteractions!.
 
 ### CSS only
 You can download the compiled CSS [Minteracions.css](https://github.com/YisusJuarez/Minteractions/blob/master/css/minteractions.css). 
