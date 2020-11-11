@@ -1,4 +1,5 @@
 //Vars & imports
+
 @import "./vars";
 $border-types: (
     "normal": 0px,
@@ -6,7 +7,7 @@ $border-types: (
     "rounded": 30px,
 );
 
-//Buttons
+//Buttons 
 .mint-btn {
     border: 0;
     color: white;
@@ -14,8 +15,8 @@ $border-types: (
     cursor: pointer;
 }
 
-// Each de color-list en _vars
-// Generacion de bgc-color
+//Each de color-list en _vars 
+// Generacion de bgc-color 
 @each $name, $color in $colors-list {
     .bgc-#{$name} {
         background-color: $color;
