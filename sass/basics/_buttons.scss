@@ -3,19 +3,18 @@
 $border-types: (
     "normal": 0px,
     "round": 3px,
-    "rounded": 14px,
+    "rounded": 30px,
 );
 
 //Buttons
 .mint-btn {
-    padding: 10px 15px;
     border: 0;
     color: white;
     font-weight: bold;
     cursor: pointer;
 }
 
-// Each de color-list en _colors
+// Each de color-list en _vars
 // Generacion de bgc-color
 @each $name, $color in $colors-list {
     .bgc-#{$name} {
@@ -31,5 +30,13 @@ $border-types: (
 @each $type, $border in $border-types {
     .br-#{$type} {
         border-radius: $border;
+    }
+}
+
+//Each de size-list en _vars
+//Generación de sz-size
+@each $size, $pixels in $size-list{
+    .sz-#{$size}{
+        padding: $pixels;
     }
 }

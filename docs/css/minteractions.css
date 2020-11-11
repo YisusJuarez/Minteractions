@@ -1,5 +1,4 @@
 .mint-btn {
-  padding: 10px 15px;
   border: 0;
   color: white;
   font-weight: bold;
@@ -37,4 +36,13 @@
   border-radius: 3px; }
 
 .br-rounded {
-  border-radius: 14px; }
+  border-radius: 30px; }
+
+.sz-small {
+  padding: 10px 15px; }
+
+.sz-medium {
+  padding: 15px 20px; }
+
+.sz-large {
+  padding: 20px 30px; }
