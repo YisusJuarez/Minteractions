@@ -17,8 +17,7 @@ After installation, you can import the CSS file into your project:
 ```
 
 ### CDN
-- jsDelivr
-https://www.jsdelivr.com/package/npm/minteractions
+- jsDelivr: https://www.jsdelivr.com/package/npm/minteractions
 
 Also you can import the css using CDN into your project:
 
