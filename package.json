@@ -1,11 +1,8 @@
 {
-  "name": "@yisusjuarezo/minteractions",
+  "name": "minteractions",
   "version": "1.0.0",
   "description": "Lightweight CSS Library for Microinteractions",
   "main": "minteractions.sass",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YisusJuarez"
-  },
   "scripts": {
     "dev":"node-sass minteractions.sass docs/css/minteractions.css --watch",
     "build": "node-sass minteractions.sass css/minteractions.css",
