@@ -1,5 +1,5 @@
 ## Minteractions
-Minteractions is a **CSS Library** where you can find professional designed components.
+Minteractions is a **lightweight CSS Library** where you can find professional designed components.
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/YisusJuarez/Minteractions)
 ### Docs (**temporarily**)
