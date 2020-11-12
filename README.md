@@ -17,7 +17,12 @@ After installation, you can import the CSS file into your project:
 @import 'minteractions/css/minteractions.css'
 ```
 ### CDN
-[https://www.jsdelivr.com/package/npm/minteractions](https://www.jsdelivr.com/package/npm/minteractions)
+https://www.jsdelivr.com/package/npm/minteractions
+You can import the css using CDN into your project:
+
+```sh
+<link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/minteractions/css/minteractions.css">
+```
 
 ### CSS only
 You can download the compiled CSS [Minteracions.css](https://github.com/YisusJuarez/Minteractions/blob/master/css/minteractions.css). 
