@@ -10,15 +10,17 @@ Follow the [docs](https://yisusjuarez.github.io/Minteractions/) to build your ow
 ```sh
 npm install minteractions
 ```
-### Import
 After installation, you can import the CSS file into your project:
 
 ```sh
 @import 'minteractions/css/minteractions.css'
 ```
+
 ### CDN
+- jsDelivr
 https://www.jsdelivr.com/package/npm/minteractions
-You can import the css using CDN into your project:
+
+Also you can import the css using CDN into your project:
 
 ```sh
 <link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/minteractions/css/minteractions.css">
