@@ -4,10 +4,10 @@
   "description": "Lightweight CSS Library for Microinteractions",
   "main": "minteractions.sass",
   "scripts": {
-    "dev":"node-sass minteractions.sass docs/css/minteractions.css --watch",
+    "dev": "node-sass minteractions.sass docs/css/minteractions.css --watch",
     "build": "node-sass minteractions.sass css/minteractions.css",
-    "mini": "node-sass minteractions.sass css/minteractions.min.css --output-style compressed",
-    "production":"npm run build && npm run mini",
+    "compress": "node-sass minteractions.sass css/minteractions.min.css --output-style compressed",
+    "production": "npm-run-all build compress",
     "server": "live-server"
   },
   "author": {
@@ -28,7 +28,8 @@
     "microinteractions"
   ],
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
   },
   "dependencies": {},
   "files": [
