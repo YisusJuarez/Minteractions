@@ -6,6 +6,8 @@
   "scripts": {
     "dev":"node-sass minteractions.sass docs/css/minteractions.css --watch",
     "build": "node-sass minteractions.sass css/minteractions.css",
+    "mini": "node-sass minteractions.sass css/minteractions.min.css --output-style compressed",
+    "production":"npm run build && npm run mini",
     "server": "live-server"
   },
   "author": {
