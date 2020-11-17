@@ -2,8 +2,28 @@
 Minteractions is a **lightweight CSS Library** where you can find professional designed components.
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/YisusJuarez/Minteractions)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/YisusJuarez/minteractions?color=red)
+![npm](https://img.shields.io/npm/v/minteractions?color=green)
 ### Docs (**temporarily**)
 Follow the [docs](https://yisusjuarez.github.io/Minteractions/) to build your own button minteractions!.
+### NPM
+```sh
+npm install minteractions
+```
+After installation, you can import the CSS file into your project:
+
+```sh
+@import 'minteractions/css/minteractions.css'
+```
+
+### CDN
+- jsDelivr: https://www.jsdelivr.com/package/npm/minteractions
+
+Also you can import the css using CDN into your project:
+
+```sh
+<link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/minteractions/css/minteractions.css">
+```
 
 ### CSS only
 You can download the compiled CSS [Minteracions.css](https://github.com/YisusJuarez/Minteractions/blob/master/css/minteractions.css). 
